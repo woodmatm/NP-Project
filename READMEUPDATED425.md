@@ -16,6 +16,7 @@ Jacob Hataway: Exact Code/Problem Presentation
 Form of Input:
 Input will begin with a single line containing a nonnegative integer weight w, representing the maximum capacity of the knapsack. This is followed by a single line that contains a nonnegative integer n followed by exactly n lines each of which contains four items (String, real, real, int).  The first value is the item's name, the second is the dollar value of the item, the third is the item's weight, and the fourth is the bound on how many of that item you can put into the knapsack.
 Ex:
+
 11
 
 3
@@ -30,8 +31,12 @@ silver 50 5 1
 Form of Output:
 The first lines are the list of items in the knapsack with the name, value and weight. The final line is the total value of items in the knapsack, formatted to two decimal places.
 Ex:
+
 ring 100 50
-silver 50 25 
+
+silver 50 25
+
 gold 5 1 
+
 155.00
 
