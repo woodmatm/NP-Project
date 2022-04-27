@@ -1,5 +1,24 @@
-11
-3
-gold 50 10 1
-silver 50 5 1
-ring 100 5 2
+400
+22
+map	150 9 1
+compass 35 13 1
+water 200 153 2
+sandwich 60 50 2
+glucose 60 15 2
+tin 45 68 3
+banana 60 27 3
+apple 40 39 3
+cheese 30 23 1
+beer 10 52 3
+suntan-cream 70 11 1
+camera 30 32 1
+T-shirt 15 24 2
+trousers 10 48 2
+umbrella 40 73 1
+waterproof-trousers 70 42 1
+waterproof-overclothes 75 43 1
+note-case 80 22 1
+sunglasses 20 7 1
+towel 12 18 2
+socks 50 4 1
+book 10 30 2
