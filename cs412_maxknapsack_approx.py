@@ -23,34 +23,46 @@ def main():
     print(y)
 
 def approx(list_of_objects, capacity, num_obj):
-    list_of_objects.sort(key=lambda x: (int(x[1]) / int(x[2])))
+    list_of_objects.sort(key=sort_by_weight)
+    list_of_objects.reverse()
     print(list_of_objects)
     cap = capacity
     final_val = 0
     final_obj_list1 = []
     final_obj_list2 = []
     k_start = 0
+    list1_value = 0
+    list2_value = 0
+    first_not_fit = False
     for i in range(0, num_obj):
         for j in range(0, list_of_objects[i][3]):
-            if cap - list_of_objects[i][3] > 0:
+            if cap - list_of_objects[i][2] >= 0:
                 final_obj_list1.append(list_of_objects[i])
                 cap -= list_of_objects[i][2]
+                list1_value += list_of_objects[i][1]
             else:
-                k_start = i
-                break
+                if not first_not_fit:
+                    k_start = i
+                    first_not_fit = True
     final_obj_list2.append(list_of_objects[k_start])
+    num_obj -= 1
+    list2_value += list_of_objects[k_start][1]
     cap = capacity - list_of_objects[k_start][2]
+    list_of_objects.remove(list_of_objects[k_start])
     for i in range(0, num_obj):
         for j in range(0, list_of_objects[i][3]):
-            if cap - list_of_objects[i][3] > 0:
-                final_obj_list1.append(list_of_objects[i])
+            if cap - list_of_objects[i][2] >= 0:
+                final_obj_list2.append(list_of_objects[i])
                 cap -= list_of_objects[i][2]
-            else:
-                break
-    print(final_obj_list1)
-    print(final_obj_list2)
+                list2_value += list_of_objects[i][1]
+    if list1_value > list2_value:
+        return final_obj_list1, list1_value
+    else:
+        return final_obj_list2, list2_value
 
 
+def sort_by_weight(e):
+    return e[1] / e[2]
 
 
 if __name__ == "__main__":
