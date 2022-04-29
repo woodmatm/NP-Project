@@ -29,14 +29,10 @@ silver 50 5 1
 
 
 Form of Output:
-The first lines are the list of items in the knapsack with the name, value and weight. The final line is the total value of items in the knapsack, formatted to two decimal places.
+The first line is the list of items in the knapsack with the name, value and weight. The final line is the total value of items in the knapsack, formatted to two decimal places.
 Ex:
 
-ring 100 50
-
-silver 50 25
-
-gold 5 1 
+[[ring 100 50 2, silver 50 25 5, gold 5 1 1]]
 
 155.00
 
