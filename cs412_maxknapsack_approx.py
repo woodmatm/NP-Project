@@ -1,6 +1,6 @@
 import math
 
-
+import time
 #This is a greedy algorithm. The greedy choice is sorting the items by value/weight ratio.
 #The source of this algorithm is found here under Greedy approximation algorithm: https://en.wikipedia.org/wiki/Knapsack_problem
 
@@ -18,9 +18,11 @@ def main():
         cur_list[2] = float(line[2])
         cur_list[3] = int(line[3])
         list_of_objects.append(cur_list)
+    t0 = time.time()
     x,y = approx(list_of_objects, capacity, num_obj)
     print(x)
     print(y)
+    print(time.time()-t0)
 
 def approx(list_of_objects, capacity, num_obj):
     list_of_objects.sort(key=sort_by_weight)    #sort the items by weight/value ratio
