@@ -1,0 +1,7 @@
+250
+5
+boat 55 40 2
+goat 30 25 2 
+coat 75 70 1
+moat 100 90 1  
+remote 60 50 3

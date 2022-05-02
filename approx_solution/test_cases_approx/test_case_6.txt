@@ -1,0 +1,12 @@
+500
+10
+ring 280 200 2
+diamond 280 200 2
+ruby 300 300 1
+gold 100 200 2
+chain 10 10 6
+coal 100 1 1
+pendant 123 56 2
+emerald 152 90 8
+opal 1 100 1
+grammy 5 1 50
