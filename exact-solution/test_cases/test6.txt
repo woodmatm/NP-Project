@@ -1,0 +1,27 @@
+800
+25
+ring 280 200 1
+diamond 280 200 1
+ruby 300 300 1
+gold 100 200 2
+chain 10 10 1
+coal 100 1 1
+pendant 123 56 1
+emerald 152 90 1
+opal 1 100 1
+grammy 5 1 2
+agate 100 80 1
+pyromorphite 250 230 1
+pargasite 340 320 1
+fluorite 25 50 1
+cerussite 55 50 1
+alexandrite 125 78 1
+axinite 40 30 2
+stilbite 300 295 1
+malachite 82 69 2
+variscite 105 95 2
+shall 109 23 1
+falt 47 21 1
+helm 99 10 1
+sheet 82 53 1
+gam 20 10 1

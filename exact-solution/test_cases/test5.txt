@@ -1,0 +1,9 @@
+275
+7
+phone 37 29 2
+controller 25 21 3
+drink 9 5 7
+headphones 50 38 2
+monitor 75 60 1
+bottle 15 11 5
+watch 100 75 1

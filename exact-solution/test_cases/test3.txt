@@ -1,0 +1,6 @@
+500
+4
+ring 250 200 1
+diamond 240 200 1
+ruby 300 300 1
+crystal 200 200 1
